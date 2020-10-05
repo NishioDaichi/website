@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*WEBフォント*/
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+
+/*root em設定*/
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem
+
+}
+
+
+/*スタイル設定ここから*/
+
+header h1 {
+	display: none;
+}
+.navber-brand img {
+	width: 250px;
+	height: auto;
+}
+.contens {
+	text-align:center;
+	border: 1px solid  #000000;
+	background-color: #ffffff;
+}
+body {
+	background-color: #F8F8FF;
+}
+.main h2 {
+	font-size: 3rem;
+	margin: 10px 0 ;
+	border-bottom: 1px solid #000000;
+}
+.infotext {
+	text-align: center;
+}
+.infodate {
+	float: right;
+}
+.atext {
+	margin: 30px 0;
+}
+.rlist {
+	margin: 15px 0;
+}
+.abtn {
+	margin-bottom: 20px;
+}
+.newmenber {
+	margin-top: 30px;
+}
+.logintext {
+	margin-bottom: 20px;
+}
+.roottop {
+	margin: 50px;
+	font-size: 2em;
+	border: 1px solid #000000;
+}
+
+.matu {
+	font-size: 3em;
+}
+/*スタイル設定ここまで*/
+
+.img-box {
+  position: relative;
+}
+.img-box .active {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+  right: 0;
+  top: 0;
+  opacity: 0;
+  transition: 15s;
+}
+.img-box:hover .active {
+  opacity: 1;
+}
+
+footer  {
+	background-color: #000033;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+}
+#totop {
+	width: 60px;
+	display: block;
+	position: fixed;
+	right: 20px;
+	text-align: center;
+	padding-bottom: 40px;
+	z-index: 9999;
+}
+#totop p {
+	display: inline;
+	text-align: center;
+	font-size: 60px;
+}
+#totop a {
+	color: #3A73FF;
+}
+#totop a:hover {
+	opacity: 0.7;
+}
+
+
+
+@media screen and (min-width: 567px) and (max-width: 767px) {
+html {
+	font-size: 65%;
+}
+	
+}
+@media screen and (max-width: 567px) {
+html {
+	font-size: 70%;
+}
+	
+}
