@@ -1,8 +1,8 @@
 <?php header("Content-Type:text/html;charset=utf-8");
 	
-	$dsn = 'mysql:dbname=website;host=localhost';
-	$user = '';
-	$password = '';
+	$dsn = 'mysql:dbname=heroku_a517b4a71595e81;host=us-cdbr-east-02.cleardb.com';
+	$user = 'b52359672e4992';
+	$password = 'aa0bd775';
 
     $db = new PDO($dsn, $user, $password);
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
